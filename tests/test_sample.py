@@ -21,7 +21,7 @@ def test_example(page: Page) -> None:
     page.get_by_label("Idle staff").check()
     page.get_by_role("button", name="Submit").click()
     page.get_by_role("link", name="free trial").click()
-    page.screenshot(path='test-results/test.jpg')
+    page.screenshot(path='test-results/testpy.jpg')
     
 #     import pytest
 # from playwright.sync_api import Playwright, sync_playwright
