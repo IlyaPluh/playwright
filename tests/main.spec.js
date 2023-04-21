@@ -1,4 +1,7 @@
+//const { test, expect } = require('@playwright/test')
 import { test, expect } from '@playwright/test';
+import { hello } from './func/demo';
+console.log(hello())
 
 test('test', async ({ page }) => {
   await page.goto('https://5controls.com/');
